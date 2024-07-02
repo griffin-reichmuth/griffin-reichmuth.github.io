@@ -44,4 +44,4 @@ The strongest performing models utilized under sampling of the target variable. 
 
 ## Find the full code here:
 
-* [Griffin Reichmuth](https://github.com/griffin-reichmuth/Portfolio-Online-Shopping)
+* [Online Shopping Prediction - Github](https://github.com/griffin-reichmuth/Portfolio-Online-Shopping)
