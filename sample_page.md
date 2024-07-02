@@ -39,9 +39,9 @@ Three sets of models were compared using ROC AUC and PR curve AUC because the ta
 
 The strongest performing models utilized under sampling of the target variable. This improved both AUC metrics. Subsetting the observations by the SpecialDay variable, using the same features determined in feature selection, shows promising results. Although the subset of data where SpecialDay=1 is small, analysis suggests that more than one model may be needed depending on the prediction timeframe (shopping near or on a special day/holiday versus not shopping at that time). More data may be needed to confirm this.
 
-![ROC and PR curves](assets/models_comparison.png)
+![ROC and PR curves](images/models_comparison.png)
 
 
-## Author
+## Find the full code here:
 
-* [Griffin Reichmuth](https://github.com/griffin-reichmuth)
+* [Griffin Reichmuth](https://github.com/griffin-reichmuth/Portfolio-Online-Shopping)
