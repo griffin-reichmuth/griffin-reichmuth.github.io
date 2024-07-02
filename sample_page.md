@@ -1,4 +1,4 @@
-# Online Shoppers Intentions
+# Predictiong Online Shoppers' Intentions
 
 ## Dataset
 
