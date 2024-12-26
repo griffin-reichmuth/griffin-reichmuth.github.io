@@ -3,18 +3,21 @@
 
 [Dataset](#dataset)
 
-[Executive Summary](#executive-summary)
+Executive Summary
+- [Sales Trends](#sales-trends)
+- [Modeling Insights](#modeling-insights)
+- [Recommendations](#recommendations)
 
 [Objectives](#objectives)
 
 [Visualization Insights](#visualization-insights)
 
-[Engineering Features](#engineering-feature)
+[Engineering Features](#engineering-features)
 
 [Model Selection and Results](#model-selection-and-results)
 
 
-
+#
 
 
 ## Background
@@ -80,6 +83,7 @@ Using a decision tree model, the features were ranked based on Gini score. Corre
 ## Model Selection and Results
 
 Three sets of models were created. The key performance metrics to compare the models were ROC AUC and PR curves because the target variable was binary and imbalanced. First all the data was used to create three models: a random forest model (base model), a random forest model with k=5 folds cross validation, and a random forest model with cross validation and under-sampling of the target variable. Next, the data was split by the binary value of the SpecialDay variable. For each data subset, SD=1 and SD=0, three random forest models with the same procedures as with the full dataset were built.
+
 The models with the largest ROC AUC values utilized under sampling of the target variable and cross validation. Sub-setting the observations by the SpecialDay variable, using the same features determined in feature selection, showed promising results. One caveat was that this the subset was small (test set n=251).  The set of models built from the data where SD=1 had higher PR AUC values than the other sets of models. The test set accuracy improved by approximately 10% the models built on the subset of data, SD=1, compared with the models built without the subset.
 
 ![ROC and PR curves](images/models_comparison.png)
