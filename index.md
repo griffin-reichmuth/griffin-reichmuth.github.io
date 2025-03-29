@@ -6,7 +6,7 @@
 <img src="images/online_shopping.jpg?raw=true" width="350" height="200"/>
 
 
-## [Healthcare Readmission Forecasting](/ecommerce_sales_prediction)
+## [Healthcare Readmission Forecasting](/healthcare_forecasting)
 <img src="images/hospital.jpg?raw=true" width="350" height="200"/>
 
 
