@@ -30,7 +30,7 @@ The analysis yielded findings and recommendations in the following areas:
 ## Dataset
 Bookstore X’s data was sourced from the [UCI Machine Learning Repository]( https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset).
 The consumer behavior dataset, authored by Sakar et al (2018), comprises 12.3K sessions, each representing a visitor to an online store. To ensure a broad representation, each session encapsulates a person over a one-year period, mitigating biases tied to specific campaigns, special days, user profiles, or periods (UCI). No data is available for the months of January and April.
-The proposed database structured can be seen below:
+The proposed database structure can be seen below:
 
 
 ![ERD](images/online_shopper_ERD.png)
