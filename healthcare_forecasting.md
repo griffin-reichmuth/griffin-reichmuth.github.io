@@ -1,5 +1,37 @@
 # Healthcare Readmission Forecasting
 
+## Summary
+As a part of my capstone project for my MS at DePaul, I worked on a team to analyze Medicare claims records to uncover key insights and develop predictive models. My analyses investigated inpatient reamission for beneficiaries.
 
----
-<div class='tableauPlaceholder' id='viz1743684068273' style='position: relative'><noscript><a href='#'><img alt='Inpatient Readmission ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17436839426070&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Book1_17436839426070&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17436839426070&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>  
+
+## Claims and Readmission Dashboard
+![Dashboard](images/medicare.png)
+
+<a href="https://public.tableau.com/views/Book1_17436839426070/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"> Dashboard link</a>
+
+## Key Findings
+### Readmission Trends
+-	Beneficiaries with principal diagnoses of chronic have on average claims ranging from hours to 10 days, indicating that …
+-	Readmission rates vary by admission type, with more than 1 in 3 emergency inpatient admissions being readmissions.
+-	Census data reveals that public health insurance coverage, an important predictor in readmission, varies by state. This indicates where targeted interventions for readmission may lead to cost savings.
+-	The 80+ age group has a disproportionate amount of readmissions when compared to other age groups. 
+
+
+
+## Additional Details
+
+
+## Background
+The rising cost of Medicare in the United States is a significant challenge in keeping medical care available for senior citizens and sustainable for the companies that provide healthcare services. Medicare spending is projected to grow from 3.1% of gross domestic product (GDP) in 2021 to 4.3% by 2032, driven mostly by increased enrollment due to an aging population, rising healthcare costs, and increased use of services and intensity of care (Cubanski & Neuman, 2023). Policymakers and Medicare providers are faced with a significant challenge, requiring a deeper understanding of the factors driving the high expenditures. These analyses examine the relationship between current inpatient stays and future inpatient stays in order to predict and mitigate readmissions.
+
+
+## Dataset
+The main data comes from the Centers for Medicare and Medicaid Services (CMS). They provide synthetic, realistic-but-not-real, claims and beneficiary data for public research purposes. The data, representing beneficiary data from 2015-2023, contains enrollment information and healthcare claims for nearly 9,000 Medicare beneficiaries which comprise 1.1 million claims. Additional data includes ICD-10 diagnostic codes and zip code level data of socioeconomic indicators from the U.S. Census Bureau. 
+Data was uploaded to a database in Google BigQuery by created by L. DeGrandchamp. 
+
+The proposed database structured can be seen below:
+
+
+![ERD](images/Medicare_schema.png)
+
+
