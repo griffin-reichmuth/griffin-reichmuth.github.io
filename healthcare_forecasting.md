@@ -41,6 +41,9 @@ The proposed database structure can be seen below:
 
 ![ERD](images/Medicare_schema.png)
 
+## Model Comparison
+
+![ROC and PR](images/readmission_model_comparsion.png)
 
 ## Find the full code here:
 
