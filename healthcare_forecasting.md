@@ -5,13 +5,13 @@ As a part of my capstone project for my MS at DePaul, I worked on a team to anal
 
 
 ## Claims and Readmission Dashboard
-![Dashboard](images/medicare.png)
+![Dashboard](images/medicare_dashboard.png)
 
 <a href="https://public.tableau.com/views/Book1_17436839426070/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"> Dashboard link</a>
 
 ## Key Findings
 ### Readmission Trends
--	Beneficiaries with principal diagnoses of chronic have on average claims ranging from hours to 10 days, indicating that …
+-	Beneficiaries with principal diagnoses of chronic have on average claims ranging from hours to 10 days.
 -	Readmission rates vary by admission type, with more than 1 in 3 emergency inpatient admissions being readmissions.
 -	Census data reveals that public health insurance coverage, an important predictor in readmission, varies by state. This indicates where targeted interventions for readmission may lead to cost savings.
 -	The 80+ age group has a disproportionate amount of readmissions when compared to other age groups. 
