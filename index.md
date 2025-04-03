@@ -5,7 +5,7 @@
 ## [Predicting Online Shoppers' Intentions](/ecommerce_sales_prediction)
 <img src="images/online_shopping.jpg?raw=true" width="350" height="200"/>
 
-[Click me](http://www.google.com){: .btn}
+---
 
 ## [Healthcare Readmission Forecasting](/healthcare_forecasting)
 <img src="images/hospital.jpg?raw=true" width="350" height="200"/>
