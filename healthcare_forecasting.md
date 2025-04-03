@@ -43,7 +43,7 @@ The proposed database structure can be seen below:
 
 ## Model Comparison
 
-![ROC and PR](images/readmission_model_comparsion.png)
+![ROC and PR](images/readmission_model_comparison.png)
 
 ## Find the full code here:
 
