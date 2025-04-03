@@ -1,6 +1,7 @@
 # Healthcare Readmission Forecasting
 As a part of my capstone project for my MS at DePaul, I worked on a team to analyze Medicare claims records to uncover key insights by developing predictive models. My analyses investigated inpatient reamission for beneficiaries.
-#
+
+
 
 ## Claims and Readmission Dashboard
 ![Dashboard](images/medicare_dashboard.png)
