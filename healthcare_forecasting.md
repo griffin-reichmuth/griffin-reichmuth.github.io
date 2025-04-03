@@ -1,7 +1,6 @@
 # Healthcare Readmission Forecasting
 As a part of my capstone project for my MS at DePaul, I worked on a team to analyze Medicare claims records to uncover key insights by developing predictive models. My analyses investigated inpatient reamission for beneficiaries.
 #
-#
 
 ## Claims and Readmission Dashboard
 ![Dashboard](images/medicare_dashboard.png)
@@ -45,7 +44,7 @@ The proposed database structure can be seen below:
 
 ## Find the full code here:
 
-* [Healthcare Readmission Forecasting - Github](https://github.com/griffin-reichmuth/Portfolio-Online-Shopping)
+* [Healthcare Readmission Forecasting - Github](https://github.com/griffin-reichmuth/Healthcare_readmission_predication)
 
 
 
