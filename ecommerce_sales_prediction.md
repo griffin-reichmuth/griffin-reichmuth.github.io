@@ -1,23 +1,4 @@
 # Predicting Online Shoppers' Intentions
-[Background](#background)
-
-[Dataset](#dataset)
-
-Executive Summary
-- [Sales Trends](#sales-trends)
-- [Modeling Insights](#modeling-insights)
-- [Recommendations](#recommendations)
-
-[Objectives](#objectives)
-
-[Visualization Insights](#visualization-insights)
-
-[Engineering Features](#engineering-features)
-
-[Model Selection and Results](#model-selection-and-results)
-
-
-
 
 
 ## Background
