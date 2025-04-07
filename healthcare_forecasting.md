@@ -6,7 +6,7 @@ As a part of my capstone project for my MS at DePaul, I worked on a team to anal
 ## Claims and Readmission Dashboard
 ![Dashboard](images/medicare_dashboard.png)
 
-<a href="https://public.tableau.com/views/Book1_17436839426070/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"> Dashboard link</a>
+<a href="https://public.tableau.com/views/InpatientReadmission/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"> Dashboard link</a>
 
 ## Key Findings
 ### Readmission Trends
