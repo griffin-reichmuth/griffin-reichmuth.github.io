@@ -54,7 +54,7 @@
    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 </body>
 </html>
- --> -->
+ --> 
 
 
 <!DOCTYPE html>
@@ -105,8 +105,27 @@
          {% endif %}
       </header>
 
-      <!-- Add the navigation with Font Awesome icons here -->
+      <!-- Add the navigation with Font Awesome icons -->
       <nav>
          <ul>
             <li><a href="{{ "/" | absolute_url }}">Home</a></li>
-            <li><a href="{{ "/gallery"
+            <li><a href="{{ "/gallery" | absolute_url }}">
+               <i class="fas fa-image"></i> Gallery
+            </a></li>
+            <li><a href="{{ "/about" | absolute_url }}">
+               <i class="fas fa-user"></i> About
+            </a></li>
+         </ul>
+      </nav>
+      <section>
+         {{ content }}
+      </section>
+      <footer>
+         {% if site.github.is_project_page %}
+         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+         {% endif %}
+      </footer>
+   </div>
+   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+</body>
+</html>
