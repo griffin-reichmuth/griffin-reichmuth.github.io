@@ -1,11 +1,13 @@
+
+---
+
+
 # Welcome to My Portfolio!
 
-Here are some important pages:
 
 
-<li><a href="{{ "/portfolio" | absolute_url }}">
-   <i class="fa-solid fa-briefcase"></i> Portfolio
-</a></li>
-<li><a href="{{ "/about" | absolute_url }}">
-  <i class="fa-solid fa-user"></i> About
-</a></li>
+
+**Hi, I'm Griffin.**
+Here you can find some of my favorite data projects and learn a bit more about who I am outside of work. 
+
+
