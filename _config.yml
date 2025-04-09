@@ -4,7 +4,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   I'm a recent MS Data Science graduate from DePaul University with a B.S. Economics degree from the University of Washington (Data Science minor). I want to combine my experience as a data analyst and social science researcher to enable impactful decision making.
   <br><br>
   <a href="https://www.linkedin.com/in/griffin-reichmuth/">View My LinkedIn Profile</a> 
-  
+
+  [More about me](/about)
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
