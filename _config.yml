@@ -10,10 +10,8 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
 
-url: https://griffin-reichmuth.github.io/
+url: https://griffin-reichmuth.github.io/home
 navigation:
-  - title: Home
-    url: /home/
   - title: Portfolio
     url: /portfolio/
   - title: About
