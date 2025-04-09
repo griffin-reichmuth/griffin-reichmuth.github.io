@@ -1,7 +1,4 @@
 ---
-title: portfolio
----
-
 # Portfolio
 
 
