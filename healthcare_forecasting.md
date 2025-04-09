@@ -1,7 +1,7 @@
 ---
 title: Healthcare Readmission Forecasting
 ---
-
+---
 # Healthcare Readmission Forecasting
 As a part of my capstone project for my MS at DePaul, I worked on a team to analyze Medicare claims records to uncover key insights by developing predictive models. My analyses investigated inpatient reamission for beneficiaries.
 
@@ -10,6 +10,8 @@ As a part of my capstone project for my MS at DePaul, I worked on a team to anal
 ![Dashboard](images/medicare_dashboard.png)
 
 <a href="https://public.tableau.com/views/InpatientReadmission/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"> Dashboard link</a>
+
+---
 
 ## Key Findings
 ### Readmission Trends
