@@ -5,10 +5,29 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <a href="https://www.linkedin.com/in/griffin-reichmuth/">View My LinkedIn Profile</a> 
 
-  [More about me](/about)
-remote_theme: pages-themes/minimal@v0.2.0
+description: Blog, Projects, About me
+theme: jekyll-theme-bluegreen-0.1.1
 plugins:
   - jekyll-feed
   - jekyll-postcss
   - jekyll-paginate
 
+postcss:
+  cache: false
+
+paginate: 5
+paginate_path: "/page:num/"
+
+collections:
+  projects:
+    output: true 
+    permalink: /projects/:path/
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+
+include:
+  - node_modules/tailwindcss
+  - _pages
