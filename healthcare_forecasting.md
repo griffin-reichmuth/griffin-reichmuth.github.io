@@ -5,11 +5,9 @@ title: Healthcare Readmission Forecasting
 
 # Healthcare Readmission Forecasting
 
-| :memo:        | *Technology:*   Python (Matplotlib, PyTorch, Scikit-learn), Google BigQuery (SQL), Jupyter    |
-|---------------|:----------------------------------------------------------------------------------------------|
-
-| :memo:        | *Algorithms:*   Logistic regression, Random Forest, Neural network   |
-|---------------|:---------------------------------------------|
+> **Technology:**   Python (Matplotlib, PyTorch, Scikit-learn), Google BigQuery (SQL), Jupyter
+> 
+> **Algorithms:**   Logistic regression, Random Forest, Neural network 
 
 As a part of my capstone project for my MS at DePaul, I worked on a team to analyze Medicare claim records to uncover key insights by developing predictive models. I investigated inpatient reamission for beneficiaries.
 
