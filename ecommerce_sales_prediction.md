@@ -1,4 +1,7 @@
 ---
+title: Predicting Online Shoppers' Intentions
+---
+---
 # Predicting Online Shoppers' Intentions
 ## Background
 Bookstore X is an ecommerce bookstore selling books directly to consumers. The company tracks marketing and sales data, as well as customer purchase and browsing data. This project leverages customer browsing data to find key insights to improve sale conversion rates.
