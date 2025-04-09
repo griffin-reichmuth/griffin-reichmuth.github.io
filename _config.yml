@@ -13,7 +13,7 @@ plugins:
 url: https://griffin-reichmuth.github.io/
 navigation:
   - title: Home
-    url: /
+    url: /home/
   - title: Portfolio
     url: /portfolio/
   - title: About
