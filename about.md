@@ -1,3 +1,4 @@
+---
 # About
 
 I'm a recent MS Data Science graduate from DePaul University with a B.S. Economics degree from the University of Washington (Data Science minor). I want to combine my experience as a data analyst and social science researcher to enable impactful decision making.
