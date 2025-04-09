@@ -82,9 +82,9 @@
    <style>
       /* Custom styles for navigation links */
       nav ul {
-         list-style-type: none; /* Remove bullet points */
-         padding: 0; /* Remove padding */
-         margin: 0; /* Remove margin */
+         list-style-type: none;
+         padding: 2; /* Remove padding */
+         margin: 2; /* Remove margin */
          display: flex; /* Display the items horizontally */
          justify-content: space-around; /* Space out the items evenly */
       }
@@ -117,6 +117,23 @@
          position: relative;
          z-index: 10; /* Keep elements above background, etc. */
       }
+
+       .wrapper::after {
+         content: "";
+         display: block;
+         clear: both; /* Clear floats */
+      }
+
+      /* Optional: Additional styles for the pages */
+      .content {
+         padding: 20px;
+      }
+
+      /* Ensure the header is styled properly */
+      header h1 {
+         margin: 0;
+      }
+
    </style>
 </head>
 <body>
