@@ -2,8 +2,23 @@
 title: Healthcare Readmission Forecasting
 ---
 ---
+
 # Healthcare Readmission Forecasting
-As a part of my capstone project for my MS at DePaul, I worked on a team to analyze Medicare claims records to uncover key insights by developing predictive models. My analyses investigated inpatient reamission for beneficiaries.
+
+| :memo:        | *Technology:*   Python (Matplotlib, PyTorch, Scikit-learn), Google BigQuery (SQL), Jupyter    |
+|---------------|:---------------------------------------------|
+
+| :memo:        | *Algorithms:*   Logistic regression, Random Forest, Neural network   |
+|---------------|:---------------------------------------------|
+
+As a part of my capstone project for my MS at DePaul, I worked on a team to analyze Medicare claim records to uncover key insights by developing predictive models. I investigated inpatient reamission for beneficiaries.
+
+My responsibilities included:
+
+- Finding and evaluating the dataset
+- Researching the impact of synthetic data on our analyses with applicable documentation and literature
+- Project-managing the group
+- Leading writing and copyediting for a cohesive technical paper of 25 pages
 
 
 ## Claims and Readmission Dashboard
@@ -41,7 +56,7 @@ The rising cost of Medicare in the United States is a significant challenge in k
 
 ## Dataset
 The main data comes from the Centers for Medicare and Medicaid Services (CMS). They provide synthetic, realistic-but-not-real, claims and beneficiary data for public research purposes. The data, representing beneficiary data from 2015-2023, contains enrollment information and healthcare claims for nearly 9,000 Medicare beneficiaries which comprise 1.1 million claims. Additional data includes ICD-10 diagnostic codes and zip code level data of socioeconomic indicators from the U.S. Census Bureau. 
-Data was uploaded to a database in Google BigQuery by created by L. DeGrandchamp. 
+Data was uploaded to a database in Google BigQuery by created by [Lexie DeGrandchamp](https://gleaming-adegrandchamp.wordpress.com/). 
 
 The proposed database structure can be seen below:
 
