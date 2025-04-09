@@ -3,6 +3,11 @@ title: Predicting Online Shoppers' Intentions
 ---
 ---
 # Predicting Online Shoppers' Intentions
+
+> **Technology:**   Python (Pandas, Seaborn, Scikit-learn), Jupyter
+> 
+> **Algorithms:**   Random Forest
+
 ## Background
 Bookstore X is an ecommerce bookstore selling books directly to consumers. The company tracks marketing and sales data, as well as customer purchase and browsing data. This project leverages customer browsing data to find key insights to improve sale conversion rates.
 The analysis yielded findings and recommendations in the following areas:
