@@ -56,7 +56,6 @@
 </html>
  --> 
 
-
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
@@ -74,13 +73,51 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    {% seo %}
-   <!-- Add Font Awesome CDN link here -->
+   <!-- Corrected Font Awesome CDN link -->
    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
    <!--[if lt IE 9]>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
    <![endif]-->
+   <style>
+      /* Custom styles for navigation links */
+      nav ul {
+         list-style-type: none; /* Remove bullet points */
+         padding: 0; /* Remove padding */
+         margin: 0; /* Remove margin */
+         display: flex; /* Display the items horizontally */
+         justify-content: space-around; /* Space out the items evenly */
+      }
+
+      nav ul li {
+         margin: 0 10px; /* Space out the list items */
+      }
+
+      nav ul li a {
+         text-decoration: none; /* Remove underline from links */
+         font-size: 18px; /* Adjust font size for text */
+         color: inherit; /* Inherit color from parent (header, body, etc.) */
+         display: flex; /* Align icon and text */
+         align-items: center; /* Center the icon and text vertically */
+      }
+
+      /* Make icons bigger */
+      nav ul li a i {
+         font-size: 24px; /* Increase icon size */
+         margin-right: 8px; /* Space between icon and text */
+      }
+
+      /* Optional: Hover effect for icons and text */
+      nav ul li a:hover {
+         color: #007bff; /* Change color on hover */
+      }
+
+      /* Ensure the icons are not displayed outside of the navigation area */
+      header, section, footer {
+         position: relative;
+         z-index: 10; /* Keep elements above background, etc. */
+      }
+   </style>
 </head>
 <body>
    <div class="wrapper">
@@ -105,18 +142,18 @@
          {% endif %}
       </header>
 
-      <!-- Add the navigation with Font Awesome icons -->
       <nav>
          <ul>
             <li><a href="{{ "/" | absolute_url }}">Home</a></li>
-            <li><a href="{{ "/gallery" | absolute_url }}">
-               <i class="fas fa-image"></i> Gallery
+            <li><a href="{{ "/portfolio" | absolute_url }}">
+               <i class="fas fa-briefcase"></i> Portfolio
             </a></li>
             <li><a href="{{ "/about" | absolute_url }}">
                <i class="fas fa-user"></i> About
             </a></li>
          </ul>
       </nav>
+
       <section>
          {{ content }}
       </section>
@@ -129,3 +166,4 @@
    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 </body>
 </html>
+
