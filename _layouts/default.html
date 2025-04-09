@@ -66,11 +66,6 @@
          clear: both; /* Clear floats */
       }
 
-      /* Optional: Additional styles for the pages */
-      .content {
-         padding: 20px;
-      }
-
       /* Ensure the header is styled properly */
       header h1 {
          margin: 0;
@@ -79,7 +74,7 @@
    </style>
 </head>
 <body>
-   <div class="wrapper">
+   <div class="wrapper" style="display: flex; justify-content: center;">
       <header>
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
          {% if site.logo %}
