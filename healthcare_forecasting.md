@@ -6,7 +6,7 @@ title: Healthcare Readmission Forecasting
 # Healthcare Readmission Forecasting
 
 | :memo:        | *Technology:*   Python (Matplotlib, PyTorch, Scikit-learn), Google BigQuery (SQL), Jupyter    |
-|---------------|:---------------------------------------------|
+|---------------|:----------------------------------------------------------------------------------------------|
 
 | :memo:        | *Algorithms:*   Logistic regression, Random Forest, Neural network   |
 |---------------|:---------------------------------------------|
