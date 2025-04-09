@@ -27,7 +27,7 @@ As a part of my capstone project for my MS at DePaul, I worked on a team to anal
 -	Beneficiary age of 80 and over should be flagged as an important criterion in predicting readmission. 
 -	Healthcare providers should consider working with local health agencies in supporting access to education for public and private healthcare insurance coverage options.
 
---- 
+
 
 ## Additional Details
 
