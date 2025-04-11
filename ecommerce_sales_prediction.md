@@ -15,6 +15,8 @@ The analysis yielded findings and recommendations in the following areas:
 -	**Feature analysis:** Evaluation of which factors are most correlated with a sale.
 -	**Temporal comparison:** An assessment of the impact of holidays on sales.
 
+![Monthly sales](images/monthly_sales.png)
+
 ## Dataset
 Bookstore X’s data was sourced from the [UCI Machine Learning Repository]( https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset).
 The consumer behavior dataset, authored by Sakar et al (2018), comprises 12.3K sessions, each representing a visitor to an online store. To ensure a broad representation, each session encapsulates a person over a one-year period, mitigating biases tied to specific campaigns, special days, user profiles, or periods (UCI). No data is available for the months of January and April.
@@ -30,9 +32,11 @@ The proposed database structure can be seen below:
 -	Sales rose slightly from the start of the year until May. Total sales then were much small, yet slightly increasing for 4 months and then jumping up in November. 
 -	From October to November, sales jumped 661% because of a large increase in users. The conversion rate rose 4%. 
 -	Conversion rates jump from 2% to 10% for February to March. The conversion rates then exhibit an upward trend month-over-month before dropping off in December to 13%.
+-	Conversion rates peaked for return customers in November at 24%, but new customers had peak conversion in May (27%), August (28%), and November (31%).
 
 
-![Monthly sales](images/monthly_sales.png)
+![Visitors](images/conversion_rate_by_visitor_type.png)
+
 
 ### Modeling Insights
 -	The most important feature (based on Gini) in predicting a sale was PageValues, which is the average value for a page that a user visited before landing on the goal page or completing a transaction (or both).
@@ -40,7 +44,8 @@ The proposed database structure can be seen below:
 -	Taking subsets of the data by the variable SpecialDay showed improved model performance across the key performance metrics for class 1 (a sale).
 
 ### Recommendations
--	More than one model should be implemented depending on the time frame of sales prediction (shopping near or on a special day/holiday versus not shopping at that time). 
+-	More than one model should be implemented depending on the time frame of sales prediction (shopping near or on a special day/holiday versus not shopping at that time).
+-	Additional models should be build and tested with the segmentation by visitor type to determine the impact on performance.
 -	Additional sales data should be collected for further analysis and to better optimize the modeling, including total dollars per transaction and the number items per sale.
 -	Future tests should investigate the effect of offering sales, either to all people or targeted by return customers, during holiday periods and other times of the year.
 
