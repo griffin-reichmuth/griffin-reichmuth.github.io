@@ -16,11 +16,10 @@ Green thumb alert!
 I love all things plants. I'm often found in a garden somewhere, either my own or admiring someone else's. I’ve grown everywhere from tiny patios to urban farms. My passion for growing ranges widely. Sometimes this is harvesting bushels of tomatoes and basil to jar homemade red sauce. Other times it’s working on an urban farm, like during my time in Detroit, to create more sustainable and just food systems.
 Ask me what I’m growing!
 
+<img src="images/peas.png" height="50%" width="50%" alt="Peas" class="center">
 
-![peas](images/peas.png)
+<img src="images/ranunculus_bouquet.png" height="50%" width="50%" alt="Ranunculus" class="center">
 
-![ranunculus](images/ranunculus_bouquet.png)
+<img src="images/kale.png" height="50%" width="50%" alt="Kale" class="center">
 
-![kale](images/kale.png)
-
-![second_bouquet](images/bouq2.png)
+<img src="images/bouq2.png" height="50%" width="50%" alt="Bouq2" class="center">
