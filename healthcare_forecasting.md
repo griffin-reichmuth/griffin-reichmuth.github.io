@@ -20,7 +20,7 @@ My responsibilities included:
 
 
 ## Claims and Readmission Dashboard
-![Dashboard](images/readmission_dashboard.png)
+![Dashboard](images/Readmission_Dashboard.png)
 
 <a href="https://public.tableau.com/views/InpatientReadmission_17745653445880/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"> Dashboard link</a>
 
